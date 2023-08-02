@@ -1,0 +1,17 @@
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.csproj.AssemblyReference.cache
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.AssemblyInfoInputs.cache
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.AssemblyInfo.cs
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.csproj.CoreCompileInputs.cache
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\bin\Debug\net7.0\E-Commerce.DataAcess.deps.json
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\bin\Debug\net7.0\E-Commerce.DataAcess.runtimeconfig.json
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\bin\Debug\net7.0\E-Commerce.DataAcess.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\bin\Debug\net7.0\E-Commerce.DataAcess.pdb
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\bin\Debug\net7.0\E-Commerce.Models.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\bin\Debug\net7.0\E-Commerce.Models.pdb
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.csproj.CopyComplete
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\refint\E-Commerce.DataAcess.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.pdb
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.genruntimeconfig.cache
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\ref\E-Commerce.DataAcess.dll
