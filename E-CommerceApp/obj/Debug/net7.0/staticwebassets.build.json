@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "jY+AjPiDJEKGlrHRA2M9QmjAVOIEXeMKWHBT9fWs7EU=",
+  "Hash": "g8fchShnBGtcyCsi/gHzxg2Byqrd50/gbwy7b+KEEpo=",
   "Source": "E-CommerceApp",
   "BasePath": "_content/E-CommerceApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "E-CommerceApp\\wwwroot",
+      "Source": "E-CommerceApp",
+      "ContentRoot": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\wwwroot\\",
+      "BasePath": "_content/E-CommerceApp",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [
     {
       "Identity": "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.9\\staticwebassets\\V5\\css\\site.css",

@@ -8,6 +8,7 @@ namespace E_Commerce.Models.Models.Enums
 {
     public enum ClothSizes
     {
+        None,
         P,
         M,
         G,

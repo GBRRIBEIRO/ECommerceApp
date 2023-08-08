@@ -1,0 +1,11 @@
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\bin\Debug\net7.0\E-Commerce.Services.deps.json
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\bin\Debug\net7.0\E-Commerce.Services.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\bin\Debug\net7.0\E-Commerce.Services.pdb
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\E-Commerce.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\E-Commerce.Services.AssemblyInfoInputs.cache
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\E-Commerce.Services.AssemblyInfo.cs
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\E-Commerce.Services.csproj.CoreCompileInputs.cache
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\E-Commerce.Services.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\refint\E-Commerce.Services.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\E-Commerce.Services.pdb
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\ref\E-Commerce.Services.dll

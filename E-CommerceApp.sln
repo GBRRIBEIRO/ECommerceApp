@@ -16,7 +16,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.DataAcess", "E-C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.Models", "E-Commerce.Models\E-Commerce.Models.csproj", "{90C283E3-AECD-4AFB-BB83-75341C6EC7C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Services", "E-Commerce.Services\E-Commerce.Services.csproj", "{1F904462-09BC-4793-B09C-944468F3B872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.Services", "E-Commerce.Services\E-Commerce.Services.csproj", "{1F904462-09BC-4793-B09C-944468F3B872}"
+	ProjectSection(ProjectDependencies) = postProject
+		{90C283E3-AECD-4AFB-BB83-75341C6EC7C7} = {90C283E3-AECD-4AFB-BB83-75341C6EC7C7}
+		{FFA6FC78-34EF-4BC2-9557-662DEC7979B6} = {FFA6FC78-34EF-4BC2-9557-662DEC7979B6}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

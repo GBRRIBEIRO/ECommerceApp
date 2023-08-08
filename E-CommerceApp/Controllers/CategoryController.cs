@@ -34,6 +34,9 @@ namespace E_Commerce.API.Controllers
         {
             try
             {
+                
+
+                //Save in the Database
                 _unitOfWork.Categories.Post(categoryInput);
                 _unitOfWork.Save();
             }

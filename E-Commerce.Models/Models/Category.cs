@@ -13,5 +13,7 @@ namespace E_Commerce.Models.Models
         public Guid Id { get; set; }
         [Required]
         public string Name { get; set; }
+        public int DiscountInPercent { get; set; } = 0;
+
     }
 }

@@ -9,16 +9,16 @@ namespace E_Commerce.Models.Models
 {
     public class Rating
     {
-        public Rating(Guid id, ECommUser user, RatingStar ratingStars, string? comment)
+        public Rating(Guid id, string userName, RatingStar ratingStars, string? comment)
         {
             Id = id;
-            User = user;
+            UserName = userName;
             RatingStars = ratingStars;
             Comment = comment;
         }
 
         public Guid Id { get; set; }
-        public ECommUser User { get; set; }
+        public string UserName { get; set; }
         public RatingStar RatingStars { get; set; }
         public string? Comment { get; set; }
 

@@ -3,6 +3,8 @@ using E_Commerce.DataAcess.Data;
 using E_Commerce.DataAcess.Repository;
 using E_Commerce.DataAcess.Repository.IRepository;
 using E_Commerce.Models.Models;
+using E_Commerce.Services.Services;
+using E_Commerce.Services.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +21,8 @@ builder.Services.AddDefaultIdentity<ECommUser>(options =>
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+//builder.Services.AddScoped<IImageService, ImageService>();
+
 builder.Services.AddAuthentication();
 
 var app = builder.Build();

@@ -50,7 +50,7 @@ namespace E_CommerceApp.Controllers
                     id: new Guid(),
                     ratingStars: rating.Stars,
                     comment: rating.Comment,
-                    user: currentUser
+                    userName: $"{currentUser.FirstName} {currentUser.LastName}"
                     ) ;
                 _unitOfWork.Ratings.Post(_rating);
                 return CreatedAtAction(nameof(Rating), rating);

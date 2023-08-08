@@ -10,6 +10,7 @@
         "dependencies": {
           "E-Commerce.DataAcess": "1.0.0",
           "E-Commerce.Models": "1.0.0",
+          "E-Commerce.Services": "1.0.0",
           "Microsoft.AspNetCore.Identity.UI": "7.0.9",
           "Microsoft.AspNetCore.OpenApi": "7.0.8",
           "Microsoft.EntityFrameworkCore": "7.0.9",
@@ -815,6 +816,11 @@
         "runtime": {
           "E-Commerce.Models.dll": {}
         }
+      },
+      "E-Commerce.Services/1.0.0": {
+        "runtime": {
+          "E-Commerce.Services.dll": {}
+        }
       }
     }
   },
@@ -1418,6 +1424,11 @@
       "sha512": ""
     },
     "E-Commerce.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "E-Commerce.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

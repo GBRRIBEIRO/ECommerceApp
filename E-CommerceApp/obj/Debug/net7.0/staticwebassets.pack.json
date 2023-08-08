@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\wwwroot\\Uploads\\Product\\43e02fac-6ba6-46a5-a642-d5b71c4718e0\\image0.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Product\\43e02fac-6ba6-46a5-a642-d5b71c4718e0\\image0.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\wwwroot\\Uploads\\Product\\43e02fac-6ba6-46a5-a642-d5b71c4718e0\\image1.png",
+      "PackagePath": "staticwebassets\\Uploads\\Product\\43e02fac-6ba6-46a5-a642-d5b71c4718e0\\image1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.E-CommerceApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.E-CommerceApp.props",
+      "PackagePath": "build\\E-CommerceApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.E-CommerceApp.props",
+      "PackagePath": "buildMultiTargeting\\E-CommerceApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.E-CommerceApp.props",
+      "PackagePath": "buildTransitive\\E-CommerceApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

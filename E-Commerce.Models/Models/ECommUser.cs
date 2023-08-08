@@ -6,6 +6,8 @@ namespace E_Commerce.Models.Models
 {
     public class ECommUser : IdentityUser
     {
+        [Key]
+        public Guid Id { get; set; }
         [Required]
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;

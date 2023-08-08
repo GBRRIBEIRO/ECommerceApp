@@ -1456,6 +1456,16 @@
         "runtime": {
           "bin/placeholder/E-Commerce.Models.dll": {}
         }
+      },
+      "E-Commerce.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/E-Commerce.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/E-Commerce.Services.dll": {}
+        }
       }
     }
   },
@@ -4426,12 +4436,18 @@
       "type": "project",
       "path": "../E-Commerce.Models/E-Commerce.Models.csproj",
       "msbuildProject": "../E-Commerce.Models/E-Commerce.Models.csproj"
+    },
+    "E-Commerce.Services/1.0.0": {
+      "type": "project",
+      "path": "../E-Commerce.Services/E-Commerce.Services.csproj",
+      "msbuildProject": "../E-Commerce.Services/E-Commerce.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "E-Commerce.DataAcess >= 1.0.0",
       "E-Commerce.Models >= 1.0.0",
+      "E-Commerce.Services >= 1.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.9",
       "Microsoft.AspNetCore.OpenApi >= 7.0.8",
       "Microsoft.EntityFrameworkCore >= 7.0.9",
@@ -4473,6 +4489,9 @@
             },
             "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
               "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj"
+            },
+            "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Services\\E-Commerce.Services.csproj": {
+              "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Services\\E-Commerce.Services.csproj"
             }
           }
         }

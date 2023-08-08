@@ -91,3 +91,5 @@ C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\E-Commerce.Services.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\E-Commerce.Services.pdb
