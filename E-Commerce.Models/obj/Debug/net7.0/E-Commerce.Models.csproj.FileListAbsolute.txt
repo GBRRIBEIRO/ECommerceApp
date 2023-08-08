@@ -9,3 +9,4 @@ C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\obj\Debug\net7.0\E-Com
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\obj\Debug\net7.0\refint\E-Commerce.Models.dll
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\obj\Debug\net7.0\E-Commerce.Models.pdb
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\obj\Debug\net7.0\ref\E-Commerce.Models.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\obj\Debug\net7.0\E-Commerce.Models.csproj.AssemblyReference.cache

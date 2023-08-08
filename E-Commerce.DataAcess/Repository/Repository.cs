@@ -25,7 +25,7 @@ namespace E_Commerce.DataAcess.Repository
             return _dbSet.ToList();
         }
 
-        public T Get(Expression<Func<T, bool>> filter)
+        public T? Get(Expression<Func<T, bool>> filter)
         {
             try
             {

@@ -2,6 +2,7 @@
 using E_Commerce.DataAcess.Data;
 using E_Commerce.DataAcess.Repository;
 using E_Commerce.DataAcess.Repository.IRepository;
+using E_Commerce.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +14,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SQLServer")));
+builder.Services.AddDefaultIdentity<ECommUser>(options =>
+    options.SignIn.RequireConfirmedEmail = true)
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddAuthentication();
 
 var app = builder.Build();
 
@@ -25,6 +31,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

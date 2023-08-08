@@ -78,3 +78,16 @@ C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\obj\Debug\net7.0\refint\E-
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\obj\Debug\net7.0\E-CommerceApp.pdb
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\obj\Debug\net7.0\E-CommerceApp.genruntimeconfig.cache
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\obj\Debug\net7.0\ref\E-CommerceApp.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\E-CommerceApp.staticwebassets.runtime.json
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\EntityFramework.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.AspNet.Identity.Core.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll

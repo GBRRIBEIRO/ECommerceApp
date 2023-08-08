@@ -10,6 +10,7 @@ namespace E_Commerce.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize(Policy = "IsManager")] //Makes the controller only usable by who have this Policy as True
     public class CategoryController : ControllerBase
     {
         public IUnitOfWork _unitOfWork;
@@ -23,24 +24,17 @@ namespace E_Commerce.API.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            List<Category> _categories = _unitOfWork.Category.GetAll().ToList();
+            List<Category> _categories = _unitOfWork.Categories.GetAll().ToList();
             if (!_categories.Any()) return BadRequest();
             return Ok(_categories);
         }
-        //[HttpGet]
-        //[AllowAnonymous] //Exeption, open to all users.
-        //public IActionResult GetById([FromQuery] Guid idInput)
-        //{
-        //    //ToDO: Repository
-        //    return Ok();
-        //}
 
         [HttpPost]
         public IActionResult Post([FromBody] Category categoryInput)
         {
             try
             {
-                _unitOfWork.Category.Post(categoryInput);
+                _unitOfWork.Categories.Post(categoryInput);
                 _unitOfWork.Save();
             }
             catch (Exception)

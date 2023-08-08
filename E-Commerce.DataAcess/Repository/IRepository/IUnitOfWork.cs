@@ -9,7 +9,11 @@ namespace E_Commerce.DataAcess.Repository.IRepository
 {
     public interface IUnitOfWork
     {
-        Repository<Category> Category { get; set; }
+        public Repository<Category> Categories { get; set; }
+        public Repository<Product> Products { get; set; }
+        public Repository<Rating> Ratings { get; set; }
+        public Repository<Address> Addresses { get; set; }
+
 
         void Save();
     }
