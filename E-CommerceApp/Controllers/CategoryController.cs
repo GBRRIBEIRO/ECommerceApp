@@ -10,7 +10,7 @@ namespace E_Commerce.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [Authorize(Policy = "IsManager")] //Makes the controller only usable by who have this Policy as True
+    [Authorize] //Makes the controller only usable by who have this Policy as True
     public class CategoryController : ControllerBase
     {
         public IUnitOfWork _unitOfWork;

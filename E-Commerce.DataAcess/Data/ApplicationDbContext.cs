@@ -2,11 +2,6 @@
 using E_Commerce.Models.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace E_Commerce.DataAcess.Data
 {
@@ -14,7 +9,7 @@ namespace E_Commerce.DataAcess.Data
     {
         DbSet<Category> Categories { get; set; }
         DbSet<Product> Products { get; set; }
-
+        DbSet<ImageStorage> Images { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
             

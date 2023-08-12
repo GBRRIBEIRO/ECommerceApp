@@ -1,7 +1,10 @@
 ﻿using E_Commerce.Models.Models;
+using E_Commerce.Models.Models.ViewModels;
+using E_Commerce.Services.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Principal;
 
 namespace E_CommerceApp.Controllers
 {
@@ -10,44 +13,43 @@ namespace E_CommerceApp.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly UserManager<ECommUser> _userManager;
-        private readonly SignInManager<ECommUser> _signInManager;
+        public IIdentityService _identityService { get; }
 
-        public UserController(UserManager<ECommUser> userManager, SignInManager<ECommUser> signInManager)
+        public UserController(IIdentityService identityService)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
+            _identityService = identityService;
         }
 
-        [Authorize(Policy = "Admin")]
-        [HttpGet]
-        public async Task<IActionResult> GetUserByEmail([FromQuery] string emailFilter) 
-        {
-            var result = _userManager.FindByEmailAsync(emailFilter);
-            if(result == null) return NotFound("User not found!");
-            return Ok(result);
-        }
 
-        [Route("Login")]
+        //[Authorize(Policy = "Admin")]
+        //[HttpGet]
+        //public async Task<IActionResult> GetUserByEmail([FromQuery] string emailFilter) 
+        //{
+        //    var result = _userManager.FindByEmailAsync(emailFilter);
+        //    if(result == null) return NotFound("User not found!");
+        //    return Ok(result);
+        //}
+
+        [Route("login")]
         [HttpPost]
-        public async Task<IActionResult> LoginPost([FromQuery] string emailFilter)
+        public async Task<ActionResult<LoginResponse>> LoginPost([FromBody] LoginRequest loginRequest)
         {
-            var result = _userManager.FindByEmailAsync(emailFilter);
-            if (result == null) return NotFound("User not found!");
-            return Ok(result);
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            var result = await _identityService.LoginUser(loginRequest);
+            if (result.Success) return Ok(result);
+            else return Unauthorized(result);
+
         }
 
-        [Route("Register")]
+        [Route("register")]
         [HttpPost]
-        public async Task<IActionResult> RegisterPost([FromQuery] string emailFilter)
+        public async Task<ActionResult<RegisterResponse>> RegisterPost([FromBody] RegisterRequest registerRequest)
         {
-            var result = _userManager.FindByEmailAsync(emailFilter);
-            if (result == null) return NotFound("User not found!");
-            return Ok(result);
-        }
+            if(!ModelState.IsValid) return BadRequest(ModelState);
 
-
-          
-        
+            var result = await _identityService.RegisterUser(registerRequest);
+            if(result.Success) return Ok(result);
+            else return BadRequest(result);
+        }    
     }
 }

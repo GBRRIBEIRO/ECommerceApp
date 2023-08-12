@@ -97,6 +97,17 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.10": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.21.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "7.0.10.0",
+            "fileVersion": "7.0.1023.36439"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/7.0.9": {
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -818,6 +829,11 @@
         }
       },
       "E-Commerce.Services/1.0.0": {
+        "dependencies": {
+          "E-Commerce.Models": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.10",
+          "System.IdentityModel.Tokens.Jwt": "6.21.0"
+        },
         "runtime": {
           "E-Commerce.Services.dll": {}
         }
@@ -871,6 +887,13 @@
       "sha512": "sha512-ay5FMSwNF0tb9KiC4l4aqm7D1E6Da9nU3euI/X0UD1SuumJX7OkZ9LtZjU9xT3xmou3XLXO8DDcgrW6udSQk6Q==",
       "path": "microsoft.aspnet.identity.entityframework/2.2.4",
       "hashPath": "microsoft.aspnet.identity.entityframework.2.2.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8/GWtq034kzrDapCHYbAnnJXIYAJzFcJoXP5OtlbjIWBQBLxEbstRv3N4DJAvlcGUXxy0DmmNVDiSlFAY8HpWw==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/7.0.10",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.7.0.10.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.9": {
       "type": "package",

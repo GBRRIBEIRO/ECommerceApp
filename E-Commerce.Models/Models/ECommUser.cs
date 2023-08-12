@@ -6,6 +6,27 @@ namespace E_Commerce.Models.Models
 {
     public class ECommUser : IdentityUser
     {
+        public ECommUser()
+        {
+
+        }
+
+        public ECommUser(
+            string firstName,
+            string lastName,
+            string email,
+            string passwordHashed,
+            string phoneNumber
+            )
+        {
+            Id = Guid.NewGuid();
+            Email = email;
+            FirstName = firstName;
+            LastName = lastName;
+            PasswordHash = passwordHashed;
+            PhoneNumber = phoneNumber;
+            Adresseses = new List<Address>();
+        }
         [Key]
         public Guid Id { get; set; }
         [Required]

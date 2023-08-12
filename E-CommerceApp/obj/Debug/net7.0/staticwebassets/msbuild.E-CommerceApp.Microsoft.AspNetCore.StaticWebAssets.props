@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Product\43e02fac-6ba6-46a5-a642-d5b71c4718e0\image0.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Product\4c8f5911-a543-4cd6-6af6-08db985afb4a\image0.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>E-CommerceApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/E-CommerceApp</BasePath>
-      <RelativePath>Uploads/Product/43e02fac-6ba6-46a5-a642-d5b71c4718e0/image0.jpg</RelativePath>
+      <RelativePath>Uploads/Product/4c8f5911-a543-4cd6-6af6-08db985afb4a/image0.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -14,23 +14,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Product\43e02fac-6ba6-46a5-a642-d5b71c4718e0\image0.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Product\43e02fac-6ba6-46a5-a642-d5b71c4718e0\image1.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>E-CommerceApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/E-CommerceApp</BasePath>
-      <RelativePath>Uploads/Product/43e02fac-6ba6-46a5-a642-d5b71c4718e0/image1.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Product\43e02fac-6ba6-46a5-a642-d5b71c4718e0\image1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Product\4c8f5911-a543-4cd6-6af6-08db985afb4a\image0.jpg))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

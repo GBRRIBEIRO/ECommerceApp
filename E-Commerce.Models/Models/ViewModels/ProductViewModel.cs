@@ -16,7 +16,6 @@ namespace E_Commerce.Models.Models.ViewModels
             int discountInPercent,
             double price,
             double? costPrice,
-            List<IFormFile> images,
             ClothSizes size,
             Gender clothGender)
         {
@@ -26,7 +25,6 @@ namespace E_Commerce.Models.Models.ViewModels
             DiscountInPercent = discountInPercent;
             Price = price;
             CostPrice = costPrice;
-            Images = images;
             Size = size;
             ClothGender = clothGender;
         }
@@ -37,7 +35,6 @@ namespace E_Commerce.Models.Models.ViewModels
         public int DiscountInPercent { get; set; } = 0;
         public double Price { get; set; }
         public double? CostPrice { get; set; }
-        public List<IFormFile> Images { get; set; }
         public ClothSizes Size { get; set; }
         public Gender ClothGender { get; set; } = 0;
 

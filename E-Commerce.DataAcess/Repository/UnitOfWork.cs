@@ -17,6 +17,7 @@ namespace E_Commerce.DataAcess.Repository
         public Repository<Product> Products { get; set; }
         public Repository<Rating> Ratings { get; set; }
         public Repository<Address> Addresses { get; set; }
+        public Repository<ImageStorage> Images { get; set; }
 
 
         private ApplicationDbContext _dbContext;
@@ -27,6 +28,7 @@ namespace E_Commerce.DataAcess.Repository
             Products = new Repository<Product>(dbContext);
             Ratings = new Repository<Rating>(dbContext);
             Addresses = new Repository<Address>(dbContext); 
+            Images = new Repository<ImageStorage>(dbContext);
         }
 
         public void Save()

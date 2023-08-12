@@ -4,36 +4,6 @@ namespace E_Commerce.Models.Models
 {
     public class Product
     {
-        public Product(
-            Guid id,
-            string name,
-            string description,
-            List<Category> categories,
-            double price,
-            double? costPrice,
-            List<Rating>? ratings,
-            List<ImageStorage>? images,
-            ClothSizes size,
-            DateTime updatedAt,
-            DateTime createdAt,
-            int baseDiscount,
-            Gender clothGender)
-        {
-            Id = id;
-            Name = name;
-            Description = description;
-            Categories = categories;
-            Price = price;
-            CostPrice = costPrice;
-            Ratings = ratings;
-            Images = images;
-            Size = size;
-            UpdatedAt = updatedAt;
-            CreatedAt = createdAt;
-            BaseDiscount = baseDiscount;
-            ClothGender = clothGender;
-        }
-
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
@@ -46,13 +16,13 @@ namespace E_Commerce.Models.Models
         public DateTime UpdatedAt { get; set; }
         public DateTime CreatedAt { get; set; }
         public int BaseDiscount { get; set; } = 0;
-        public int DiscountInPercent => ApplyCategoryDiscount(BaseDiscount);
+        public int DiscountInPercent { get; set; } = 0;
         public Gender ClothGender { get; set; } = 0;
-        public Double RatingsAverage => GetRatingsAverage();
-        public double FinalPrice => Price * (100 / DiscountInPercent);
+        public Double RatingsAverage { get; set; } = 0;
+        public double FinalPrice { get; set; } = 0;
 
 
-        public int GetRatingsAverage()
+        public void GetRatingsAverage()
         {
             var quantity = 0;
             var totalAverage = 0;
@@ -61,20 +31,26 @@ namespace E_Commerce.Models.Models
                 quantity++;
                 totalAverage += (int)rating.RatingStars;
             }
-            return totalAverage / quantity;
+            RatingsAverage = totalAverage / quantity;
         }
 
-        public int ApplyCategoryDiscount(int baseDiscount) 
+        public void ApplyCategoryDiscount() 
         {
+
             var biggestDiscount = 0;
+            biggestDiscount = BaseDiscount;
             foreach(var category in Categories)
             {
                 if(category.DiscountInPercent > biggestDiscount) biggestDiscount = category.DiscountInPercent; 
             
             }
-            if(biggestDiscount > baseDiscount) return biggestDiscount;
-            else return baseDiscount;
+            DiscountInPercent = biggestDiscount;
 
+        }
+
+        public void GetTotal()
+        {
+            FinalPrice = Price * (100 / DiscountInPercent);
         }
 
 

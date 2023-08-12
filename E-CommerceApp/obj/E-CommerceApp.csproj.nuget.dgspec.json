@@ -187,7 +187,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
+                "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -202,6 +206,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

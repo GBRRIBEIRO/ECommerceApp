@@ -27,8 +27,8 @@ namespace E_Commerce.API.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            
-            return Ok();
+            var products = _unitOfWork.Products.GetAll();
+            return Ok(products);
         }
 
         [HttpPost]
@@ -36,21 +36,26 @@ namespace E_Commerce.API.Controllers
         {
             
             var _newId = new Guid();
-            var _product = new Product(
-                id: _newId,
-                name: productInput.Name,
-                description: productInput.Description,
-                categories: productInput.Categories,
-                price: productInput.Price,
-                costPrice: productInput.CostPrice,
-                createdAt: DateTime.Now,
-                updatedAt: DateTime.Now,
-                ratings: new List<Rating>(),
-                size: productInput.Size,
-                baseDiscount: productInput.DiscountInPercent,
-                clothGender: productInput.ClothGender,
-                images: new List<ImageStorage>()
-                );
+            var _product = new Product();
+
+            _product.Id = _newId;
+            _product.Name = productInput.Name;
+            _product.Description = productInput.Description;
+            _product.Categories = productInput.Categories;
+            _product.Price = productInput.Price;
+            _product.CostPrice = productInput.CostPrice;
+            _product.CreatedAt = DateTime.Now;
+            _product.UpdatedAt = DateTime.Now;
+            _product.Ratings = new List<Rating>();
+            _product.Size = productInput.Size;
+            _product.BaseDiscount = productInput.DiscountInPercent;
+            _product.ClothGender = productInput.ClothGender;
+            _product.Images = new List<ImageStorage>();
+            _product.ApplyCategoryDiscount();
+            _product.GetTotal();
+
+            _unitOfWork.Products.Post(_product);
+            _unitOfWork.Save();
             return Ok();
             
         }

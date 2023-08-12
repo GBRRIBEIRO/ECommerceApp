@@ -1,12 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\wwwroot\\Uploads\\Product\\43e02fac-6ba6-46a5-a642-d5b71c4718e0\\image0.jpg",
-      "PackagePath": "staticwebassets\\Uploads\\Product\\43e02fac-6ba6-46a5-a642-d5b71c4718e0\\image0.jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\wwwroot\\Uploads\\Product\\43e02fac-6ba6-46a5-a642-d5b71c4718e0\\image1.png",
-      "PackagePath": "staticwebassets\\Uploads\\Product\\43e02fac-6ba6-46a5-a642-d5b71c4718e0\\image1.png"
+      "Id": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\wwwroot\\Uploads\\Product\\4c8f5911-a543-4cd6-6af6-08db985afb4a\\image0.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Product\\4c8f5911-a543-4cd6-6af6-08db985afb4a\\image0.jpg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.E-CommerceApp.Microsoft.AspNetCore.StaticWebAssets.props",
