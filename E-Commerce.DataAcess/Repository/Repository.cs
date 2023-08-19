@@ -56,5 +56,6 @@ namespace E_Commerce.DataAcess.Repository
         {
             _dbSet.Add(obj);
         }
+
     }
 }

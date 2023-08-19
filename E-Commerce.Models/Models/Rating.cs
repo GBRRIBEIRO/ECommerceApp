@@ -1,4 +1,4 @@
-﻿using E_Commerce.Models.Models.Enums;
+﻿using E_Commerce.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

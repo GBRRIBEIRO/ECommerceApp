@@ -94,3 +94,13 @@ C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\E-Commerce.Services.dll
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\E-Commerce.Services.pdb
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\System.Web.Mvc.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\System.Web.Razor.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\System.Web.Helpers.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\System.Web.WebPages.Deployment.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\System.Web.WebPages.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\bin\Debug\net7.0\Thinktecture.IdentityModel.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\obj\Debug\net7.0\E-CommerceApp.sourcelink.json

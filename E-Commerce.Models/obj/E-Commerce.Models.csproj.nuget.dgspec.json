@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {}
+    "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
+    "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj",
+        "projectUniqueName": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj",
         "projectName": "E-Commerce.Models",
-        "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj",
+        "projectPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\obj\\",
+        "outputPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

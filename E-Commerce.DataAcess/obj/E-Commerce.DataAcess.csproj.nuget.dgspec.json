@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj": {}
+    "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj": {
+    "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj",
+        "projectUniqueName": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj",
         "projectName": "E-Commerce.DataAcess",
-        "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj",
+        "projectPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\obj\\",
+        "outputPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
-                "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj"
+              "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
+                "projectPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
+    "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj",
+        "projectUniqueName": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj",
         "projectName": "E-Commerce.Models",
-        "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj",
+        "projectPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\obj\\",
+        "outputPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
