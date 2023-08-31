@@ -13,3 +13,6 @@ C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\bin\Debug\net7.0\E-C
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\bin\Debug\net7.0\E-Commerce.Models.pdb
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\E-Commerce.Services.csproj.AssemblyReference.cache
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\E-Commerce.Services.csproj.CopyComplete
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\bin\Debug\net7.0\E-Commerce.DataAcess.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\bin\Debug\net7.0\E-Commerce.DataAcess.pdb
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\obj\Debug\net7.0\E-Commerce.Services.sourcelink.json

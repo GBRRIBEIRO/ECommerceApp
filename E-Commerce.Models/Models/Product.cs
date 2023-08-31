@@ -1,4 +1,4 @@
-﻿using E_Commerce.Models.Models.Enums;
+﻿using E_Commerce.Models.Enums;
 
 namespace E_Commerce.Models.Models
 {

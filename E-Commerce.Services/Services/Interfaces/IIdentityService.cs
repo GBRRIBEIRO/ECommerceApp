@@ -1,4 +1,5 @@
-﻿using E_Commerce.Models.Models.ViewModels;
+﻿using E_Commerce.Models.Models;
+using E_Commerce.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,8 @@ namespace E_Commerce.Services.Services.Interfaces
     {
         Task<RegisterResponse> RegisterUser(RegisterRequest request);
         Task<LoginResponse> LoginUser(LoginRequest request);
+        Task<LoginResponse> LoginWithoutPassword(string userEmail);
+        Task<ECommUser> GetByEmail(string email);
+        Task<List<ECommUser>> GetNonDefaultUsers();
     }
 }

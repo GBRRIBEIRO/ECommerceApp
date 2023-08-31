@@ -17,6 +17,5 @@ namespace E_Commerce.DataAcess.Repository.IRepository
         public void Post(T obj);
         public void Patch(T obj);
         public void Delete(T obj);
-
     }
 }

@@ -1,6 +1,6 @@
 ﻿using E_Commerce.DataAcess.Repository.IRepository;
 using E_Commerce.Models.Models;
-using E_Commerce.Models.Models.ViewModels;
+using E_Commerce.Models.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;

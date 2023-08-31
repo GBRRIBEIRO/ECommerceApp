@@ -15,3 +15,4 @@ C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\re
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.pdb
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.genruntimeconfig.cache
 C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\ref\E-Commerce.DataAcess.dll
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\obj\Debug\net7.0\E-Commerce.DataAcess.sourcelink.json

@@ -1,9 +1,5 @@
 ﻿using E_Commerce.Models.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace E_Commerce.DataAcess.Repository.IRepository
 {
@@ -13,7 +9,7 @@ namespace E_Commerce.DataAcess.Repository.IRepository
         public Repository<Product> Products { get; set; }
         public Repository<Rating> Ratings { get; set; }
         public Repository<Address> Addresses { get; set; }
-
+        public Repository<IdentityUserRole<string>> UserRoles { get; set; }
 
         void Save();
     }

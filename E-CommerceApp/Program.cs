@@ -51,8 +51,9 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddScoped<IIdentityService, IdentityService>();
 builder.Services.AddAuthentication(builder.Configuration);
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+builder.Services.AddDbContext<ApplicationDbContext>(options=>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SQLServer")));
+
 
 builder.Services.AddDefaultIdentity<ECommUser>()
     .AddRoles<IdentityRole>()
@@ -73,6 +74,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(x => x
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .SetIsOriginAllowed(origin => true) // allow any origin
+                                                        //.WithOrigins("https://localhost:44351")); // Allow only this origin can also have multiple origins separated with comma
+                    .AllowCredentials()); // allow credentials
 
 app.UseAuthentication();
 

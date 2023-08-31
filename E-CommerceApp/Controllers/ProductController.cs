@@ -1,12 +1,9 @@
 ﻿
-
-using E_Commerce.DataAcess.Repository;
 using E_Commerce.DataAcess.Repository.IRepository;
 using E_Commerce.Models.Models;
-using E_Commerce.Models.Models.ViewModels;
-using E_CommerceApp.Controllers;
-using Microsoft.AspNetCore.Authorization;
+using E_Commerce.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Thinktecture.IdentityModel.Authorization.Mvc;
 
 namespace E_Commerce.API.Controllers
 {
@@ -24,6 +21,7 @@ namespace E_Commerce.API.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
+        [ClaimsAuthorize("Product", "Read")]
         [HttpGet]
         public IActionResult GetAll()
         {

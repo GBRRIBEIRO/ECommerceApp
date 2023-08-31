@@ -1,5 +1,4 @@
-﻿using E_Commerce.DataAcess.Data;
-using E_Commerce.DataAcess.Repository.IRepository;
+﻿using E_Commerce.DataAcess.Repository.IRepository;
 using E_Commerce;
 using System;
 using System.Collections.Generic;
@@ -7,7 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using E_Commerce.Models.Models;
-using E_Commerce.Models.Models.Enums;
+using System.Security.Claims;
+using E_Commerce.DataAcess.Data;
+using Microsoft.AspNetCore.Identity;
 
 namespace E_Commerce.DataAcess.Repository
 {
@@ -18,7 +19,7 @@ namespace E_Commerce.DataAcess.Repository
         public Repository<Rating> Ratings { get; set; }
         public Repository<Address> Addresses { get; set; }
         public Repository<ImageStorage> Images { get; set; }
-
+        public Repository<IdentityUserRole<string>> UserRoles { get; set; }
 
         private ApplicationDbContext _dbContext;
         public UnitOfWork(ApplicationDbContext dbContext)
@@ -29,6 +30,7 @@ namespace E_Commerce.DataAcess.Repository
             Ratings = new Repository<Rating>(dbContext);
             Addresses = new Repository<Address>(dbContext); 
             Images = new Repository<ImageStorage>(dbContext);
+            UserRoles = new Repository<IdentityUserRole<string>>(dbContext);
         }
 
         public void Save()
