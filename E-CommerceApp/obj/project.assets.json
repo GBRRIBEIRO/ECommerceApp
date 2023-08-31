@@ -4718,11 +4718,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\E-CommerceApp.csproj",
+      "projectUniqueName": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\E-CommerceApp.csproj",
       "projectName": "E-CommerceApp",
-      "projectPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\E-CommerceApp.csproj",
+      "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\E-CommerceApp.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\obj\\",
+      "outputPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-CommerceApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4739,14 +4739,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj": {
-              "projectPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj"
+            "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj": {
+              "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj"
             },
-            "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
-              "projectPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj"
+            "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
+              "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj"
             },
-            "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Services\\E-Commerce.Services.csproj": {
-              "projectPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Services\\E-Commerce.Services.csproj"
+            "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Services\\E-Commerce.Services.csproj": {
+              "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Services\\E-Commerce.Services.csproj"
             }
           }
         }
@@ -4831,7 +4831,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'EntityFramework 6.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'EntityFramework 6.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "EntityFramework",
       "targetGraphs": [
         "net7.0"
@@ -4841,7 +4841,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.Identity.Core 2.2.4' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         "net7.0"
@@ -4851,7 +4851,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.Identity.EntityFramework 2.2.4' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.AspNet.Identity.EntityFramework 2.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
       "targetGraphs": [
         "net7.0"
@@ -4861,7 +4861,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.Mvc 5.2.9' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.AspNet.Mvc 5.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Mvc",
       "targetGraphs": [
         "net7.0"
@@ -4871,7 +4871,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.Razor 3.2.9' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.AspNet.Razor 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Razor",
       "targetGraphs": [
         "net7.0"
@@ -4881,7 +4881,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.WebPages 3.2.9' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.AspNet.WebPages 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebPages",
       "targetGraphs": [
         "net7.0"
@@ -4891,7 +4891,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Web.Infrastructure 1.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Web.Infrastructure",
       "targetGraphs": [
         "net7.0"
@@ -4901,7 +4901,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Newtonsoft.Json 5.0.6' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Newtonsoft.Json 5.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net7.0"
@@ -4911,7 +4911,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Thinktecture.IdentityModel 3.6.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Thinktecture.IdentityModel 3.6.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Thinktecture.IdentityModel",
       "targetGraphs": [
         "net7.0"

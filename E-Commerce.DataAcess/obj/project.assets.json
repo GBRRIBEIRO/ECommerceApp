@@ -4004,11 +4004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj",
+      "projectUniqueName": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj",
       "projectName": "E-Commerce.DataAcess",
-      "projectPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj",
+      "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\E-Commerce.DataAcess.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\obj\\",
+      "outputPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.DataAcess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4025,8 +4025,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
-              "projectPath": "c:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj"
+            "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj": {
+              "projectPath": "C:\\Dev\\Projects\\.NET Work\\E-CommerceApp\\E-Commerce.Models\\E-Commerce.Models.csproj"
             }
           }
         }
@@ -4098,7 +4098,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'EntityFramework 6.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'EntityFramework 6.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "EntityFramework",
       "targetGraphs": [
         "net7.0"
@@ -4108,7 +4108,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.Identity.Core 2.2.4' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         "net7.0"
@@ -4118,7 +4118,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.Identity.EntityFramework 2.2.4' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.AspNet.Identity.EntityFramework 2.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
       "targetGraphs": [
         "net7.0"
