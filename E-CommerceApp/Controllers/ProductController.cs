@@ -2,6 +2,7 @@
 using E_Commerce.DataAcess.Repository.IRepository;
 using E_Commerce.Models.Models;
 using E_Commerce.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Thinktecture.IdentityModel.Authorization.Mvc;
 
@@ -21,7 +22,6 @@ namespace E_Commerce.API.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        [ClaimsAuthorize("Product", "Read")]
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -30,6 +30,7 @@ namespace E_Commerce.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Post([FromBody] ProductViewModel productInput)
         {
             
