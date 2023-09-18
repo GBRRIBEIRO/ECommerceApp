@@ -1,4 +1,5 @@
 ﻿using E_Commerce.Models.Enums;
+using E_Commerce.Models.ViewModels;
 
 namespace E_Commerce.Models.Models
 {
@@ -15,12 +16,30 @@ namespace E_Commerce.Models.Models
         public ClothSizes Size { get; set; }
         public DateTime UpdatedAt { get; set; }
         public DateTime CreatedAt { get; set; }
-        public int BaseDiscount { get; set; } = 0;
         public int DiscountInPercent { get; set; } = 0;
         public Gender ClothGender { get; set; } = 0;
         public Double RatingsAverage { get; set; } = 0;
         public double FinalPrice { get; set; } = 0;
+        public Product() 
+        {
+            UpdatedAt = DateTime.Now;
+            CreatedAt = DateTime.Now;
 
+        }
+
+        public Product(Guid id, ProductViewModel model, IEnumerable<Category> categories) : base()
+        {
+            Id = id;
+            Name = model.Name;
+            Description = model.Description;
+            CostPrice = model.CostPrice;
+            Price = model.Price;
+            ClothGender = model.ClothGender;
+            Size = model.Size;
+            AddCategories(categories);
+            CalculateDiscountByCategories(categories);
+            GetTotal();
+        }
 
         public void GetRatingsAverage()
         {
@@ -33,24 +52,32 @@ namespace E_Commerce.Models.Models
             }
             RatingsAverage = totalAverage / quantity;
         }
-
-        public void ApplyCategoryDiscount() 
+        
+        public void AddCategory(Category cat)
         {
+            Categories.Add(cat);
+        }
 
-            var biggestDiscount = 0;
-            biggestDiscount = BaseDiscount;
-            foreach(var category in Categories)
+        public void AddCategories(IEnumerable<Category> categories)
+        {
+            Categories.AddRange(categories);
+        }
+
+        public void CalculateDiscountByCategories(IEnumerable<Category> categories)
+        {
+            var highestDiscount = 0;
+            foreach (Category category in categories)
             {
-                if(category.DiscountInPercent > biggestDiscount) biggestDiscount = category.DiscountInPercent; 
-            
+                if (category.DiscountInPercent > highestDiscount) highestDiscount = category.DiscountInPercent;
             }
-            DiscountInPercent = biggestDiscount;
+            DiscountInPercent = highestDiscount;
 
         }
 
         public void GetTotal()
         {
-            FinalPrice = Price * (100 / DiscountInPercent);
+            if(DiscountInPercent > 0) FinalPrice = Price * (100 / DiscountInPercent);
+            else FinalPrice = Price;
         }
 
 

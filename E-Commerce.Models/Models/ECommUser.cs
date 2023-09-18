@@ -19,7 +19,7 @@ namespace E_Commerce.Models.Models
             string phoneNumber
             )
         {
-            Id = Guid.NewGuid();
+            Id = Guid.NewGuid().ToString();
             Email = email;
             FirstName = firstName;
             LastName = lastName;
@@ -28,7 +28,7 @@ namespace E_Commerce.Models.Models
             Adresseses = new List<Address>();
         }
         [Key]
-        public Guid Id { get; set; }
+        public string Id { get; set; }
         [Required]
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;

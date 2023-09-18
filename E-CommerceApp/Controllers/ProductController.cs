@@ -3,6 +3,7 @@ using E_Commerce.DataAcess.Repository.IRepository;
 using E_Commerce.Models.Models;
 using E_Commerce.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using Thinktecture.IdentityModel.Authorization.Mvc;
 
 namespace E_Commerce.API.Controllers
@@ -21,55 +22,75 @@ namespace E_Commerce.API.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        [ClaimsAuthorize("Product", "Read")]
+        [HttpGet("{id}")]
+        public IActionResult Get([FromRoute] Guid id)
+        {
+            var product = _unitOfWork.Products.Get(p => p.Id == id);
+            if (product == null) return NotFound();
+            return Ok(product);
+        }
+
         [HttpGet]
         public IActionResult GetAll()
         {
             var products = _unitOfWork.Products.GetAll();
+            if (products == null || products.IsNullOrEmpty()) return NoContent();
             return Ok(products);
         }
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] ProductViewModel productInput)
         {
-            
-            var _newId = new Guid();
-            var _product = new Product();
+            var newId = Guid.NewGuid();
+            var newProduct = new Product();
+            var categories = new List<Category>();
+            try
+            {
+                //Get Product categories
+                foreach (Guid catId in productInput.CategoriesId)
+                {
+                    var productCategories = _unitOfWork.Categories.Get(p => p.Id == catId);
+                    if (productCategories != null)
+                    {
+                       categories.Add(productCategories);
+                    }
+                    else
+                    {
+                        throw new Exception("Category doesn't exist!");
+                    }
+                }
+                newProduct = new Product(newId, productInput, categories);
+                
+                //Add in the Database
+                _unitOfWork.Products.Post(newProduct);
+                _unitOfWork.Save();
+            }
+            catch (Exception err)
+            {
+                return BadRequest(err.Message);
+            }
 
-            _product.Id = _newId;
-            _product.Name = productInput.Name;
-            _product.Description = productInput.Description;
-            _product.Categories = productInput.Categories;
-            _product.Price = productInput.Price;
-            _product.CostPrice = productInput.CostPrice;
-            _product.CreatedAt = DateTime.Now;
-            _product.UpdatedAt = DateTime.Now;
-            _product.Ratings = new List<Rating>();
-            _product.Size = productInput.Size;
-            _product.BaseDiscount = productInput.DiscountInPercent;
-            _product.ClothGender = productInput.ClothGender;
-            _product.Images = new List<ImageStorage>();
-            _product.ApplyCategoryDiscount();
-            _product.GetTotal();
-
-            _unitOfWork.Products.Post(_product);
-            _unitOfWork.Save();
-            return Ok();
-            
+            return Created($"Product/{newId}", newProduct);
         }
 
 
         [HttpPatch]
-        public IActionResult Patch([FromBody] Product ProductInput)
+        public IActionResult Patch([FromBody] Product productInput)
         {
-            //ToDO: Repository
-            return Ok();
+            var product = _unitOfWork.Products.Get(p => p.Id == productInput.Id);
+            if (product == null) return NotFound();
+            _unitOfWork.Products.Patch(productInput);
+            _unitOfWork.Save();
+            return Ok(productInput);
         }
 
         [HttpDelete]
         public IActionResult Delete([FromQuery] Guid id)
         {
-            //ToDO: Repository
+            var product = _unitOfWork.Products.Get(p => p.Id == id);
+            if (product == null) return NotFound();
+            _unitOfWork.Products.Delete(product);
+            _unitOfWork.Save();
             return Ok();
         }
 

@@ -153,9 +153,9 @@ namespace E_Commerce.Services.Services.Implementations
             var claims = new List<Claim>();
 
             //Adds all the basic JWT claims
-            claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString())); //Subject = Who refers tod
+            claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id)); //Subject = Who refers tod
             claims.Add(new Claim(JwtRegisteredClaimNames.Email, user.Email)); //Email
-            claims.Add(new Claim(JwtRegisteredClaimNames.Jti, new Guid().ToString())); //Token ID
+            claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())); //Token ID
             claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, DateTime.Now.ToString())); //Not before
             claims.Add(new Claim(JwtRegisteredClaimNames.Iat, DateTime.Now.ToString())); //Issued at
 

@@ -13,7 +13,7 @@ namespace E_Commerce.Models.ViewModels
     {
         public ProductViewModel(string name,
             string description,
-            List<Category> categories,
+            List<Guid> categoriesId,
             int discountInPercent,
             double price,
             double? costPrice,
@@ -22,7 +22,7 @@ namespace E_Commerce.Models.ViewModels
         {
             Name = name;
             Description = description;
-            Categories = categories;
+            CategoriesId = categoriesId;
             DiscountInPercent = discountInPercent;
             Price = price;
             CostPrice = costPrice;
@@ -32,7 +32,7 @@ namespace E_Commerce.Models.ViewModels
 
         public string Name { get; set; }
         public string Description { get; set; }
-        public List<Category> Categories { get; set; }
+        public List<Guid> CategoriesId { get; set; }
         public int DiscountInPercent { get; set; } = 0;
         public double Price { get; set; }
         public double? CostPrice { get; set; }
