@@ -52,7 +52,7 @@ builder.Services.AddScoped<IIdentityService, IdentityService>();
 builder.Services.AddAuthentication(builder.Configuration);
 
 builder.Services.AddDbContext<ApplicationDbContext>(options=>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SQLServer")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("LocalSQLServer")));
 
 
 builder.Services.AddDefaultIdentity<ECommUser>()

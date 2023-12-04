@@ -1,0 +1,1 @@
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-CommerceApp\.sonarqube\out\2

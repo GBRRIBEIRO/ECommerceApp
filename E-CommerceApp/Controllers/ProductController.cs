@@ -4,7 +4,6 @@ using E_Commerce.Models.Models;
 using E_Commerce.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using Thinktecture.IdentityModel.Authorization.Mvc;
 
 namespace E_Commerce.API.Controllers
 {

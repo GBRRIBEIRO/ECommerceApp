@@ -1,0 +1,5 @@
+﻿C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\Extensions\AuthenticationSetup.cs
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\Services\Configurations\JwtOptions.cs
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\Services\Implementations\IdentityService.cs
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\Services\Implementations\RoleService.cs
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Services\Services\Interfaces\IIdentityService.cs

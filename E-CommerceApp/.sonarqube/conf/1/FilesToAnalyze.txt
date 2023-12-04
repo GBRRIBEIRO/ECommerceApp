@@ -1,0 +1,5 @@
+﻿C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\Data\ApplicationDbContext.cs
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\Repository\IRepository\IRepository.cs
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\Repository\IRepository\IUnitOfWork.cs
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\Repository\Repository.cs
+C:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.DataAcess\Repository\UnitOfWork.cs

@@ -1,0 +1,23 @@
+V
+MC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Constants\Claims.csutf-8^
+UC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Constants\ClaimsProvider.csutf-8V
+MC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Enums\ClothSizes.csutf-8R
+IC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Enums\Gender.csutf-8V
+MC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Enums\RatingStar.csutf-8W
+NC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Intefaces\IEntity.csutf-8^
+UC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Intefaces\IEntityInteger.csutf-8T
+KC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Models\Address.csutf-8U
+LC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Models\Category.csutf-8V
+MC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Models\ECommUser.csutf-8Y
+PC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Models\ImageStorage.csutf-8T
+KC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Models\Product.csutf-8S
+JC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\Models\Rating.csutf-8]
+TC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\ViewModels\LoginRequest.csutf-8^
+UC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\ViewModels\LoginResponse.csutf-8a
+XC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\ViewModels\ProductViewModel.csutf-8`
+WC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\ViewModels\RatingViewmodel.csutf-8`
+WC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\ViewModels\RegisterRequest.csutf-8a
+XC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\ViewModels\RegisterResponse.csutf-8y
+nC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\obj\Debug\net7.0\E-Commerce.Models.GlobalUsings.g.csutf-8„
+yC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8w
+lC:\Dev\Projects\.NET Work\E-CommerceApp\E-Commerce.Models\obj\Debug\net7.0\E-Commerce.Models.AssemblyInfo.csutf-8
